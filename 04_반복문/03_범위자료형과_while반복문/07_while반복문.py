@@ -23,6 +23,10 @@ while i < 10:
 numbers = [5, 15, 6, 20, 7, 25]
 
 for number in numbers:
+    # if number >= 10:
+    #     print(number)
+
     if number < 10:
         continue
-    print(number)
+    print(number)   
+    # continue 키워드를 사용하므로 들여쓰기를 하나 제거할 수 있다는 것이 장점
