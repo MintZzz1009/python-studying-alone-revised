@@ -18,14 +18,14 @@ print(A)
 # 위와 같은 문법을 간단하게 작성하는 방법이 리스트 내포
 # [표현식 for i in range(0, 10)]
 A = [2 * i + 1 for i in range(0, 10)]
-print(A)
+print(A)    # [1, 3, 5, 7, 9, 11, 13, 15, 17, 19]
 
 원화 = [dollar * 1399 for dollar in 달러]
-print(원화)
+print(원화) # [217446.57, 423491.29, 108366.54, 183660.72]
 
 A = [
     2 * i + 1               # 표현식
     for i in range(0, 10)   # 반복절
     if i % 2 == 0           # 조건절
 ]
-print(A)
+print(A)    # [1, 5, 9, 13, 17]

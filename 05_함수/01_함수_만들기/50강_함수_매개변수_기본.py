@@ -13,7 +13,7 @@ print_3_times('안녕')
 print_3_times('안녕', '문자열')
 # TypeError: 'str' object cannot be interpreted as an integer
 
-## parameter: 함수 정의 때 넣은 변수
+## parameter: 함수 정의 때 넣은 변수, 매개변수
 ## 함수를 설계하는 사람
 ## 1. 함수의 설명서 -> 문서(documentation)
 ## 2. 예외 처리
@@ -25,5 +25,5 @@ def print_3_times(문자열, 횟수):
     for i in range(횟수):
         print(문자열)
 
-## argument: 함수 호출 때 넣은 값
+## argument: 함수 호출 때 넣은 값, 인수
 ## 함수를 사용하는 사람

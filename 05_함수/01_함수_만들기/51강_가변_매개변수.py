@@ -33,5 +33,5 @@ def print_n_times(*리스트, 횟수):
         for 요소 in 리스트:
             print(요소)
 
-print_n_times('안녕', '하세요', 2)
+# print_n_times('안녕', '하세요', 2)
 print_n_times('안녕', '하세요', 횟수 = 2)
